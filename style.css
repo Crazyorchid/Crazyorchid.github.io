@@ -1,0 +1,188 @@
+/* *{
+  outline: solid #f00 1px !important;
+  background: #000 !important;
+  color: #fff !important;
+} */
+section {
+    height: 1100px;
+    width: auto;
+    padding-top: 100px;
+    font-size:125%;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+  }
+
+
+.navigation{
+  position: fixed;
+  width: 100%;
+  font-size: large;
+  }
+
+  /*Home*/
+
+  #home{
+    background-color: rgb(50, 60, 117);
+    
+    
+  }
+
+.navbar-brand img{
+  width: 80px;
+  padding-right: 20px;
+}
+
+  #home h1{
+   color: rgba(207, 75, 8, 0.87);
+   display: flex;
+   justify-content: center;
+  }
+
+ .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+
+ }
+
+
+  #home h2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+  }
+
+ /* Education part */
+ #education{
+   background-color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .graduation{
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 30px;  
+   padding: 20px;
+   background-color: aliceblue;
+  }
+
+  .graduation img{
+    border-radius: 30px 0px 0 30px;
+    width: 440px;
+  }
+
+
+ .graduation h1{
+   margin-top: 20px;
+   color: black;
+   font-weight: bold;
+   font-family: 'Varela Round', sans-serif;
+   
+ }
+ .graduation p{
+   color: rgb(6, 7, 8);
+   font-size: large;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ .graduation ul{
+   width: 600px;
+ }
+
+ /* Award and scholarship */
+ #award{
+  background-color: rgb(175, 3, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .awards{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;  
+  padding: 20px;
+  background-color: aliceblue;
+ }
+
+ .awards img{
+   border-radius: 30px 0px 0 30px;
+   width: 440px;
+ }
+
+
+.awards h1{
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+.awards p{
+  color: rgb(6, 7, 8);
+  font-size: x-large;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.awards ul{
+  width: 600px;
+}
+
+
+ /* Experience */
+ #experience{
+  background-color: rgb(16, 90, 248);
+  background-image: url("./assets/bg.png");
+  display: flex;
+
+}
+
+.exp{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-content:space-around;
+}
+.exp ul{
+  width: 600px;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 10px ;
+  background-color: rgb(255, 255, 255);
+}
+.exp h1{
+  color: rgb(12, 10, 7);
+}
+.exp p{
+  color: rgb(8, 8, 6);
+  font-size: x-large;
+}
+
+.skills{
+  display: flex;
+  width: 600px;
+}
+
+.skills h2{
+  color: rgb(245, 145, 14);
+}
+
+
+
+.skills ul{
+  width: 500px;
+  background-color: rgba(240, 248, 255, 0);
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  
+}
+
+.tech-img{
+  display: flex;
+  flex-direction: column;
+}
